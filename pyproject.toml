@@ -1,0 +1,18 @@
+[project]
+name = "llms-extension-context-compaction"
+version = "0.1.0"
+description = "Context compaction extension for llms - automatically summarizes conversation history to save memory"
+authors = [{name = "konsumer"}]
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/konsumer/llms-extension-context_compaction"
+Issues = "https://github.com/konsumer/llms-extension-context_compaction/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

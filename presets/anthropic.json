@@ -1,0 +1,10 @@
+{
+  "enabled": true,
+  "threshold": 0.85,
+  "provider": "anthropic",
+  "model": "claude-3-haiku-20240307",
+  "notify_user": true,
+  "use_simple_prompt": false,
+  "summary_prompt": "Please provide a comprehensive summary of the conversation so far. Preserve:\n- All critical context and decisions\n- User preferences and constraints\n- Technical details and requirements\n- Code snippets and configurations\n- Conversation flow and key topics\n\nBe thorough but concise. This summary will replace the conversation history.",
+  "simple_prompt": "Summarize this conversation concisely. Include: key decisions, requirements, code context, and current task. Be brief."
+}
