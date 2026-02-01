@@ -35,3 +35,8 @@ ENV/
 # OS
 .DS_Store
 Thumbs.db
+
+# Development logs
+logs/
+*.log
+*.pid
